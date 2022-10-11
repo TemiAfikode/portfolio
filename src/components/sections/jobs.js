@@ -133,8 +133,8 @@ const Jobs = () => {
   }, []);
 
   return (
-    <StyledJobsSection id="jobs" >
-      <h2 className="numbered-heading">Where Work Experience</h2>
+    <StyledJobsSection id="jobs">
+      <h2 className="numbered-heading">My Work Experience</h2>
       <div className="experience-timeline">
         coming soon
         {/* <ul className="experience-list">
