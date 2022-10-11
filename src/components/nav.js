@@ -163,8 +163,7 @@ const Nav = ({ isHome }) => {
       {isHome ? (
         // eslint-disable-next-line @next/next/no-html-link-for-pages
         <a href="/" aria-label="home">
-          {/* <IconLogo /> */}
-          TEMI
+          <IconLogo />
         </a>
       ) : (
         <Link href="/" aria-label="home">

@@ -37,17 +37,6 @@ const StyledLoader = styled.div`
 
 const Loader = ({ finishLoading }) => {
   const [isMounted, setIsMounted] = useState(false);
-  // const refToComponent = React.useRef(null);
-
-  // useEffect(() => {
-  //   async function animate() {
-  //     if (refToComponent.current) {
-  //       const sr = (await import("scrollreveal")).default;
-  //       sr().reveal(refToComponent.current);
-  //     }
-  //   }
-  //   animate();
-  // }, []);
 
   const animate = () => {
     const loader = anime.timeline({
@@ -94,8 +83,7 @@ const Loader = ({ finishLoading }) => {
   return (
     <StyledLoader className="loader" isMounted={isMounted}>
       <div className="logo-wrapper">
-        {/* <IconLoader /> */}
-        TEMI
+        <IconLoader />
       </div>
     </StyledLoader>
   );

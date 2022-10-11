@@ -104,4 +104,28 @@ module.exports = {
       link: "https://github.com/TemiAfikode/NUTRITION-APP.git",
     },
   ],
+
+  jobs: [
+    {
+      title: "Human Resource Intern",
+      employer: "@Ismile Technologies, Illinois, Chicago",
+      description:
+        "Post job openings on LinkedIn, review applications, screen resumes and select candidates for interview. Assist with maintenance of digital and electronic records of employees and ensure accuracy of information stored in the database.",
+      duration: "Jun. 2020 - Jan. 2021",
+    },
+    {
+      title: "Human Resource Coordinator",
+      employer: "@Smartwatt Technologies, Lagos, Nigeria",
+      description:
+        "Fostered positive employee relations through proactive employee communications and the prompt resolution of employee inquiries and issues. Maintained the confidentiality of personal employee information, company information, records, and related issues in accordance with all the applicable laws.",
+      duration: "Jul. 2015 - Sept. 2018",
+    },
+    {
+      title: "Branch Customer Service Assistant Manager",
+      employer: "@Guaranty Trust Bank Plc",
+      description:
+        "Trained customer service representatives and managers in five struggling branches, and contributed to significant improvements in the branches’ CSI. Elevated the branch’s customer-satisfaction index (CSI) from 64% to 83% within twelve months by ensuring swift resolution of customer issues to preserve customer loyalty.",
+      duration: "Nov. 2013 - Feb. 2015",
+    },
+  ],
 };
