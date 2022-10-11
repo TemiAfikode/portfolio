@@ -143,7 +143,7 @@ const About = () => {
   ];
 
   return (
-    <StyledAboutSection id="about" >
+    <StyledAboutSection id="about">
       <h2 className="numbered-heading">About Me</h2>
 
       <div className="inner">
@@ -161,7 +161,9 @@ const About = () => {
               JS, PHP, and ASP.net.
             </p>
 
-            <p>I also recently concluded Bachelor of science in computer</p>
+            <p>
+              I also recently concluded post graduate course in web development
+            </p>
             <p>Here are some of the Technologies I have being working with</p>
           </div>
 
