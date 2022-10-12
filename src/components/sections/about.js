@@ -16,7 +16,8 @@ const StyledAboutSection = styled.section`
     grid-gap: 50px;
 
     @media (max-width: 768px) {
-      display: block;
+      display: flex;
+      flex-direction: column-reverse;
     }
   }
 `;
@@ -29,7 +30,6 @@ const StyledText = styled.div`
     margin: 20px 0 0 0;
     overflow: hidden;
     list-style: none;
-
     li {
       position: relative;
       margin-bottom: 10px;

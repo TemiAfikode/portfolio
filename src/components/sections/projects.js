@@ -7,7 +7,7 @@ import { Icon } from "components/icons";
 import { usePrefersReducedMotion } from "hooks";
 import Link from "next/link";
 
-const StyledProjectsSection = styled.section`
+export const StyledProjectsSection = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,13 +41,28 @@ const StyledProjectsSection = styled.section`
     }
   }
 
+  .educations-grid {
+    ${({ theme }) => theme.mixins.resetList};
+    display: flex;
+    gap: 15px;
+    position: relative;
+    margin-top: 50px;
+
+    @media (max-width: 1080px) {
+      flex-direction: column;
+    }
+    li {
+      flex: 1;
+    }
+  }
+
   .more-button {
     ${({ theme }) => theme.mixins.button};
     margin: 80px auto 0;
   }
 `;
 
-const StyledProject = styled.li`
+export const StyledProject = styled.li`
   position: relative;
   cursor: default;
   transition: var(--transition);
@@ -167,6 +182,12 @@ const StyledProject = styled.li`
       }
     }
   }
+
+  .duration {
+    font-family: var(--font-mono);
+    font-size: var(--fz-xxs);
+    line-height: 1.75;
+  }
 `;
 
 const Projects = () => {
@@ -178,17 +199,6 @@ const Projects = () => {
     if (prefersReducedMotion) {
       return;
     }
-
-    // async function animate() {
-    //   if (revealTitle.current) {
-    //     sr?.reveal(revealTitle.current, srConfig());
-    //     const sr = (await import("scrollreveal")).default;
-    //     revealProjects.current.forEach((ref, i) =>
-    //       sr.reveal(ref, srConfig(i * 100))
-    //     );
-    //   }
-    // }
-    // animate();
   }, []);
 
   const projectInner = (project) => {
@@ -252,10 +262,8 @@ const Projects = () => {
   };
 
   return (
-    <StyledProjectsSection id="projects"  >
-      <h2 className="numbered-heading" >
-        Some Of My Projects
-      </h2>
+    <StyledProjectsSection id="projects">
+      <h2 className="numbered-heading">Some Of My Projects</h2>
       {/* <h2 ref={revealTitle}>Some Of My Projects</h2> */}
 
       <ul className="projects-grid">

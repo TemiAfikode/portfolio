@@ -1,7 +1,7 @@
 import {
   About,
   Contact,
-  Featured,
+  Education,
   Hero,
   Jobs,
   Layout,
@@ -15,6 +15,7 @@ export default function Home() {
       <About />
       <Projects />
       <Jobs />
+      <Education />
       <Contact />
     </Layout>
   );

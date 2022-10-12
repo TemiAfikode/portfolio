@@ -26,6 +26,10 @@ module.exports = {
       url: "/#jobs",
     },
     {
+      name: "Education",
+      url: "/#educations",
+    },
+    {
       name: "Contact",
       url: "/#contact",
     },
@@ -126,6 +130,24 @@ module.exports = {
       description:
         "Trained customer service representatives and managers in five struggling branches, and contributed to significant improvements in the branches’ CSI. Elevated the branch’s customer-satisfaction index (CSI) from 64% to 83% within twelve months by ensuring swift resolution of customer issues to preserve customer loyalty.",
       duration: "Nov. 2013 - Feb. 2015",
+    },
+  ],
+
+  educations: [
+    {
+      course: "Post graduate certificate web development",
+      school: "@Humber college",
+      duration: "2022",
+    },
+    {
+      course: "Post graduate certificate Human Resources",
+      school: "@Seneca college",
+      duration: "2020",
+    },
+    {
+      course: "BSc accounting",
+      school: "@Covenant university",
+      duration: "2009",
     },
   ],
 };
