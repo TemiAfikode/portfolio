@@ -16,8 +16,6 @@ ENV NODE_ENV $NODE_ENV
 
 RUN npm run build
 
-RUN npm prune --production
-
 EXPOSE $PORT
 
-CMD [ "npm", "run", "start" ]
+CMD [ "npm", "start" ]
