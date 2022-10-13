@@ -162,7 +162,8 @@ const About = () => {
             </p>
 
             <p>
-              I also recently concluded post graduate course in web development
+              I am currently taking a post graduate course in web development
+              at Humber college
             </p>
             <p>Here are some of the Technologies I have being working with</p>
           </div>

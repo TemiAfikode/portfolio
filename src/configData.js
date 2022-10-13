@@ -64,7 +64,7 @@ module.exports = {
     og: {
       title: "Temitope Babalola Portfolio",
       type: "website",
-      url: "https://temitopebabalola.vercel.app",
+      url: "https://temibabalola.com",
       image: "http://temibabalola.com/images/temi-img.jpg",
     },
     image: "http://temibabalola.com/images/temi-img.jpg",
