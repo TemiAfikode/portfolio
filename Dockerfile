@@ -1,4 +1,4 @@
-FROM node:15.5.0
+FROM node:16.0.0
 
 WORKDIR /usr/src/client
 
@@ -16,6 +16,10 @@ ENV NODE_ENV $NODE_ENV
 
 RUN npm run build
 
+RUN npm prune --production
+
 EXPOSE $PORT
+
+RUN npm start
 
 CMD [ "npm", "start" ]
