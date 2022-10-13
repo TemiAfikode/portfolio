@@ -1,4 +1,4 @@
-FROM 16-alpine
+FROM node:15.5.0
 
 WORKDIR /usr/src/client
 
